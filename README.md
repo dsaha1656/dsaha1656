@@ -1,19 +1,43 @@
 ![About Me](https://github.com/dsaha1656/dsaha1656/raw/master/bio.gif)
 
-### Hi there 👋
+```javascript
 
-<!--
-**dsaha1656/dsaha1656** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+import * from World.Dibyendu;
 
-Here are some ideas to get you started:
+class About extends Me
+{
+    public function getCurrentWorkplace()
+    {
+        return [
+            'passion'=>[
+                'Full Stack Developer',
+                'DevOps Engineer'
+            ],
+            'workplace' => [
+                'company' => 'Ardent Computech Pvt. Ltd',
+                'position' => 'Project Engineer'         
+            ]
+        ];
+    }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    public function getDailyKnowledge()
+    {
+        return [
+            NodeJS::class,
+            Python:class,
+            Java:class,
+            Php::class,
+            Javascript::class,
+            Laravel::class,
+            Vuejs::class,
+            ReactNative::class,
+            Aws::class,
+        ];
+    }
 
+    public function getFutureGoal()
+    {
+        return 'Learn more spread more~~~~';
+    }
+}
+```
