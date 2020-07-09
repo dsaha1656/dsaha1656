@@ -2,9 +2,9 @@
 
 ```javascript
 
-import * from World.Dibyendu;
+import coder from World.stupids;
 
-class About extends Me {
+class Dibyendu extends coder {
 
     getCurrentWorkplace = () => {
     
