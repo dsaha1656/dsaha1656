@@ -4,24 +4,32 @@
 
 import * from World.Dibyendu;
 
-class About extends Me
-{
-    public function getCurrentWorkplace()
-    {
-        return [
-            'passion'=>[
-                'Full Stack Developer',
-                'DevOps Engineer'
-            ],
-            'workplace' => [
-                'company' => 'Ardent Computech Pvt. Ltd',
-                'position' => 'Project Engineer'         
-            ]
-        ];
+class About extends Me {
+
+    getCurrentWorkplace = () => {
+    
+        return {
+            workplace : {
+                company : "Ardent Computech Pvt. Ltd",
+                position : "Project Engineer"  
+            }
+        };
+    }
+    
+    
+    getPassion = () => {
+    
+        return {
+             passionate : {
+                'Deep Learning',
+                'Full Stack Development',
+                'DevOps Engineering'
+            }
+        };
     }
 
-    public function getDailyKnowledge()
-    {
+    getDailyKnowledge = () => {
+    
         return [
             NodeJS::class,
             Python:class,
@@ -35,9 +43,10 @@ class About extends Me
         ];
     }
 
-    public function getFutureGoal()
-    {
+    getFutureGoal = () => {
+    
         return 'Learn more spread more~~~~';
+    
     }
 }
 ```
