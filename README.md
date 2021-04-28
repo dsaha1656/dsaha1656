@@ -6,12 +6,26 @@ import Coder from World.Stupids;
 
 class Dibyendu extends Coder {
 
+    getEducationalQualification = () => {
+    
+        return [
+            {
+                Type: M.Tech,
+                University: "University Of Kalyani",
+            },
+            {
+                Type: B.Tech,
+                University: "Maulana Abul Kalam Azad University of Technology",
+            }
+        ];
+    }
+    
     getCurrentWorkplace = () => {
     
         return {
             workplace : {
-                company : "Ardent Computech Pvt. Ltd",
-                position : "Project Engineer"  
+                Type : "Freelancer",
+                Position : "Full Stack Developer & Cloud Engineer"  
             }
         };
     }
@@ -20,10 +34,10 @@ class Dibyendu extends Coder {
     getPassion = () => {
     
         return {
-             passionate : {
+             Passionate : {
                 'Deep Learning',
                 'Full Stack Development',
-                'DevOps Engineering'
+                'Cloud Engineering'
             }
         };
     }
