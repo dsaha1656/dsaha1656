@@ -48,13 +48,13 @@ class Dibyendu extends Coder {
             NodeJS::class,
             Python:class,
             Java:class,
-            PHP::class,
             Laravel::class,
             Vuejs::class,
             ReactJS::class,
             ReactNative::class,
-            AWS::class,
-            DO::class
+            Aws::class,
+            Do::class,
+            Jenkins::class
         ];
     }
 
