@@ -54,7 +54,7 @@ class Dibyendu extends Coder {
             ReactNative::class,
             Aws::class,
             Do::class,
-            Jenkins::class
+            Jenkins::class,
         ];
     }
 
