@@ -25,8 +25,8 @@ class Dibyendu extends Coder {
     
         return {
             workplace : {
-                Type : "Freelancer",
-                Position : "Full Stack Developer & Cloud Engineer"  
+                Company : "Foremedia",
+                Position : "Full Stack Developer"  
             }
         };
     }
@@ -36,6 +36,9 @@ class Dibyendu extends Coder {
     
         return {
              Passionate : {
+                'Vehicle Routing Problem',
+                'Facility Location',
+                'Digital Geometry',
                 'Deep Learning',
                 'Full Stack Development',
                 'Cloud Engineering'
