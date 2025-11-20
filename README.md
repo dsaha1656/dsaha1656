@@ -1,5 +1,6 @@
-![About Me](https://github.com/dsaha1656/dsaha1656/raw/master/bio.gif)
+![](https://komarev.com/ghpvc/?username=dsaha1656&color=dc143c&style=for-the-badge)
 
+![About Me](https://github.com/dsaha1656/dsaha1656/raw/master/bio.gif)
 
 ```javascript
 
@@ -69,3 +70,5 @@ class Dibyendu extends Coder {
     }
 }
 ```
+![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dsaha1656&theme=apprentice)
+
