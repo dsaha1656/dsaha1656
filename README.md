@@ -26,7 +26,7 @@ class Dibyendu extends Coder {
     
         return {
             workplace : {
-                Company : "Arcane Technologies",
+                Company : "Alakazam LLC",
                 Position : "Full Stack Developer"  
             }
         };
